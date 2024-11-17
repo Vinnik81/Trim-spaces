@@ -13,7 +13,7 @@ void main()
 	SetConsoleOutputCP(1251);
 	setlocale(LC_ALL, "Russian");
 
-	const int MAX_SIZE = 256; // Максимальный размер строки для избежания перепольнения буфера
+	const int MAX_SIZE = 1024; // Максимальный размер строки для избежания перепольнения буфера
 	char string[MAX_SIZE];
 	cout << "Введите строку: ";
 	cin.getline(string, MAX_SIZE);
